@@ -1,0 +1,126 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.night-mode h1{
+        color: #fff;
+    }
+.night-mode body{
+        background-color: black;
+    } 
+.night-mode p{
+    border: solid 2px #fff;
+}     
+.night-mode h4{
+    color: #fff;
+}  
+
+@font-face {
+    font-family:'Abel';
+    src:url("https: //fonts.googleapis.com/css2? family= Abel & display=swap");
+}
+
+body{
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 400px;
+    font-family: 'Abel', sans-serif;
+}
+
+h4{
+    color: rgb(35, 12, 56);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 20px;
+    color: #000000;
+}
+h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(47, 26, 60);
+    border-radius: 5px;
+    height: 35px;
+    padding: 3px;
+    font-family: 'Abel', sans-serif;
+}
+
+p{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: rgb(201, 180, 221);
+    border-radius: 5px;
+    height: 35px;
+    padding: 3px;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+}
+span{
+    margin: 0 auto;
+    margin-right: 0%;
+}
+
+button{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 40px;
+    padding: 7px;
+    background-color: rgb(200, 176, 255);
+    border-radius: 5px;
+    border: solid 1px rgb(37, 21, 53);
+    font-family: 'Abel', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(31, 13, 48);
+    color: #fff;
+}
+.valorItem{
+    display: flex;
+    margin-right: 0%;
+}
+input{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+    h3{
+        width: 90%;
+    }
+    p{
+        width: 90%;
+        margin-left: 4%;
+    }
+    .valorItem{
+        display: flex;
+        justify-content: flex-end;
+    }
+    input{
+        width: 15%;
+    }
+    h4{
+        margin-left: 5%;
+    }
+}
+
+
+
+
